@@ -72,6 +72,7 @@ pub extern crate url;
 pub extern crate percent_encoding;
 extern crate threadpool;
 extern crate num_cpus;
+extern crate byteorder;
 
 // https://github.com/servo/rust-url/blob/e121d8d0aafd50247de5f5310a227ecb1efe6ffe/percent_encoding/lib.rs#L126
 pub const DEFAULT_ENCODE_SET: &percent_encoding::AsciiSet = &percent_encoding::CONTROLS
